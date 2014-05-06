@@ -52,7 +52,7 @@ img {
 
 @media(min-width: 1000px){
 	.boxes{
-		display: table;
+		display: table-cell;
 	}
 	
 }
