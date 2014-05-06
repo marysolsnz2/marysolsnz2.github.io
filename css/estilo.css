@@ -1,7 +1,3 @@
-html, body{
-	height: 100%;
-	background-image: url('https://raw.githubusercontent.com/jardjys/jardjys.github.io/master/wallpaper.png');
-}
 .header{
 	height: 20%;
 	position: fixed;
