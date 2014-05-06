@@ -88,12 +88,11 @@ a{
 		height: 50%;
 	}
 	.boxes{
-		display: table-row;
+		display: table;
 	}
 	.page{
 		margin-top: 10px;
 	}
-	
 	.footer{
 		height: 20%;
 	}
