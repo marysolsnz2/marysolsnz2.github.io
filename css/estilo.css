@@ -50,7 +50,7 @@ img {
 	max-width:100%
 }
 
-@media(min-width: 1001px){
+@media(min-width: 1000px){
 	.boxes{
 		display: table-cell;
 	}
@@ -63,7 +63,7 @@ img {
 		height: 50%;
 	}
 	.boxes{
-		display: table;
+		display: table-row;
 	}
 	.page{
 		margin-top: 10px;
