@@ -87,12 +87,13 @@ a{
 		position: static;
 		height: 50%;
 	}
-	.page{
-		margin-top: 10px;
-	}
 	.boxes{
 		display: table-row;
 	}
+	.page{
+		margin-top: 10px;
+	}
+	
 	.footer{
 		height: 20%;
 	}
