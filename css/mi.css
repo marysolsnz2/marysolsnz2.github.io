@@ -90,6 +90,9 @@ a{
 	.page{
 		margin-top: 10px;
 	}
+	.boxes{
+		display: table-row;
+	}
 	.footer{
 		height: 20%;
 	}
