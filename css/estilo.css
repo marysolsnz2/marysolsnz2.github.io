@@ -1,0 +1,75 @@
+html, body{
+	height: 100%;
+	background-image: url('https://raw.githubusercontent.com/jardjys/jardjys.github.io/master/wallpaper.png');
+}
+.header{
+	height: 20%;
+	position: fixed;
+	top:0%;
+	left: 0%;
+	z-index: 1;
+	background-color: white;
+
+}
+.page{
+	position: relative;
+	top: 150px;
+	height: 200%;
+}
+.img{
+	height: 100%;
+	width: 100%;
+}
+.menu{
+	margin-top: 50px;
+}
+.a{
+	font-size: 24px;
+	font-family: 'Pacifico', 'cursive';
+}
+.row{
+display: table;
+}
+
+.boxes{
+ 	float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+.footer{
+	background-color: #D0D0D0;
+	height: 12%;
+	bottom: 0%;
+	text-align: center;
+}
+.blank{
+	height: 5%;
+}
+
+img {
+	max-width:100%
+}
+
+@media(min-width: 1001px){
+	.boxes{
+		display: table-cell;
+	}
+	
+}
+@media(max-width: 1000px){
+	.header{
+		margin-top: 0px;
+		position: static;
+		height: 50%;
+	}
+	.boxes{
+		display: table;
+	}
+	.page{
+		margin-top: 10px;
+	}
+	.footer{
+		height: 25%;
+	}
+}
+

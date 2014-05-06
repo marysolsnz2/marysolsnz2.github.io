@@ -1,0 +1,47 @@
+.parcol{
+	background-color: #FF9900;
+	height: 100%;
+}
+.kidcol{
+	background-color: #66CCFF;
+	height: 100%;
+}
+.img{
+	height: 100%;
+	width: 100%;
+}
+
+html, body{
+	height: 100%;
+}
+.fill{
+	height: 80%;
+	width: 50%;
+}
+.title{
+	font-family: 'Pacifico', 'cursive';	color: white;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	margin-top: 20%;
+}
+.buttondiv{
+	margin-top: 10%;
+}
+.header{
+	height: 20%;
+	text-align: center;
+}
+.logo{
+z-index:1; position: absolute; left:71%;
+	height:168px; width:405.6px;
+}
+@media(max-width: 1000px){
+	.logo{
+		left: 37%;
+		height: 84px;
+		width: 202.8px;
+		position: fixed;
+	}
+
+}
