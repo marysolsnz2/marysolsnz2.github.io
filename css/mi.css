@@ -88,7 +88,7 @@ html, body{
 		height: 50%;
 	}
 	.boxes{
-		display: table-cell;
+		display: table;
 	}
 	.page{
 		margin-top: 10px;
