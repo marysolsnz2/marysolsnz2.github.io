@@ -85,9 +85,7 @@ a{
 		position: static;
 		height: 50%;
 	}
-	.boxes{
-		display: table;
-	}
+
 	.page{
 		margin-top: 10px;
 	}
