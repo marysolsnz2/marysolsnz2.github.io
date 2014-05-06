@@ -23,12 +23,30 @@
   	<script src="js/vendor/modernizr.js"></script> 
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
     <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script>
+       var miApp = angular.module('MiApp', []);
+       miApp.controller("Controlador", function ($scope) {
+              $scope.usuarios=[{
+
+                  'nombre': 'Kimberly',
+                  'correo': 'kim_rola@hotmail.com'
+                }
+
+                ];
+
+       });
+
+       </script>
+    
+    
   </head>
   <body>
     <!-- Static Header -->
@@ -69,7 +87,15 @@
           <div class="col-md-4 boxes" style="background-color: #00CC33; text-align: center">
             <p style="color: #009966; margin-top: 10px; font-family: 'Montserrat', 'sans-serif'; font-size: 36px;">Iniciar sesión</p>
           <form role="form">
+             <div ng-controller="Controlador">
+                <p>Hola!  {{usuarios[0].nombre}}</p>
              <div class="form-group">
+                  <div ng-model="usuarios">
+                 <label for="exampleInputEmail1"><p style="color: #009966; margin-top: 10px; font-family: 'Montserrat', 'sans-serif'; font-size: 14px;">Nombre:</p></label>
+                 <input ng-model="usuarios[0].nombre" type="text" placeholder="{{usuarios[0].nombre}}">
+                 </div>   
+                 </div>
+                </div>
                <label for="exampleInputEmail1"><p style="color: #009966; margin-top: 10px; font-family: 'Montserrat', 'sans-serif'; font-size: 14px;">Correo Electrónico:</p></label>
                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresar Correo ">
             </div>
