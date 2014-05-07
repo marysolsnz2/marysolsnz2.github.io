@@ -65,6 +65,12 @@ img {
 		margin-top: 10px;
 	}
 	.footer{
+		height: 25%;
+	}
+}
+
+@media(max-width: 500px){
+	.footer{
 		height: 35%;
 	}
 }
